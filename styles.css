@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(187, 181, 181);
+    z-index: 1000;
+   
+
+    h1{
+        font-size: 20px;
+    }
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    display: flex;
+    
+}
+a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+button{
+    color: white;
+    background-color: #00A36C;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 20px;
+
+}
+
+.hero-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://t3.ftcdn.net/jpg/05/76/17/88/360_F_576178802_eoj6WA8ZNlQ8HpcZHdmazfdZO7rTq2i6.jpg');
+    padding: 100px;
+   
+}
+
+.hero-section-left-text{
+
+    color: #00A36C;
+
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+
+    }
+}
+
+.hero-section-right{
+
+    img{
+         border-radius: 20px;
+    }
+}
+.section1{
+    background-color: rgb(252, 247, 241);
+}
+
+
+.section1-img{
+    display: flex;
+    justify-content: space-between;
+    
+
+   
+}
+
+.section1-content1{
+
+    h4{
+        padding-left: 60px;
+    
+    }
+    
+}
+.section1text{
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.section22{
+    display: flex;
+    justify-content: space-between;
+}
+.section2text{
+    padding-left: 45%;
+    padding-bottom: 20px;
+}
+
+
+.snaketext{
+    display: flex;
+    align-items: center;
+}
+.section33{
+    display: flex;
+    justify-content: space-between;
+}
+.section4-text{
+    padding-left: 40%;
+}
+.section4-img{
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    box-shadow: 100px; 
+    border-radius: 10px;
+    background-color: rgb(239, 236, 233);
+}
+.section5{
+    background-color: #00A36C;
+    text-align: center;
+    h3{
+        padding-top: 20px;
+    }
+}
+.section6{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 30px;
+}
+.nil{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
